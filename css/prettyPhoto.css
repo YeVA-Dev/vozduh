@@ -1,0 +1,475 @@
+/* ------------------------------------------------------------------------
+	This you can edit.
+------------------------------------------------------------------------- */
+div.facebook .pp_top .pp_left {
+	background: url(prettyPhoto/sprite.png) 0px 0px no-repeat;
+} /* Top left corner */
+div.facebook .pp_top .pp_middle {
+	background: #fff;
+} /* Top pattern/color */
+div.facebook .pp_top .pp_right {
+	background: url(prettyPhoto/sprite.png) -50px 0px no-repeat;
+} /* Top right corner */
+div.facebook .pp_bottom .pp_left {
+	background: url(prettyPhoto/sprite.png) 0px -12px no-repeat;
+} /* Bottom left corner */
+div.facebook .pp_bottom .pp_middle {
+	background: #fff;
+} /* Bottom pattern/color */
+div.facebook .pp_bottom .pp_right {
+	background: url(prettyPhoto/sprite.png) -50px -12px no-repeat;
+} /* Bottom right corner */
+.pp_bottom {
+	height: 12px;
+	position: relative;
+}
+
+.pp_details table{
+	width:100%;
+	min-width:200px;
+}
+.pp_details td.head{
+	vertical-align: top;
+	padding-left: 10px;
+	color: #007dc3;
+	font-size:15px;
+	line-height: 18px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.pp_details td.dsc{
+	vertical-align: top;
+	padding: 0 5px;
+	font-size:12px;
+	line-height:12px;
+	letter-spacing: 0.03em;
+	color:#155d86;
+}
+
+div.facebook .pp_content_container .pp_left {
+	background: #cfcfcf;
+} /* Content background */
+div.facebook .pp_content_container .pp_right {
+	background: #cfcfcf;
+} /* Content background */
+div.facebook .pp_content {
+	background: #ffffff;
+} /* Content background */
+div.facebook .pp_expand {
+	background: url(prettyPhoto/sprite.png) -31px -26px no-repeat;
+	cursor: pointer;
+} /* Expand button */
+div.facebook .pp_expand:hover {
+	background: url(prettyPhoto/sprite.png) -31px -47px no-repeat;
+	cursor: pointer;
+} /* Expand button hover */
+div.facebook .pp_contract {
+	background: url(prettyPhoto/sprite.png) 0 -26px no-repeat;
+	cursor: pointer;
+} /* Contract button */
+div.facebook .pp_contract:hover {
+	background: url(prettyPhoto/sprite.png) 0 -47px no-repeat;
+	cursor: pointer;
+} /* Contract button hover */
+
+div.facebook .pp_close {
+	width: 69px;
+	height: 14px;
+	background: url(prettyPhoto/sprite.png) 55px -159px no-repeat;
+	cursor: pointer;
+	font-size:12px;
+	color:#ccc;
+	letter-spacing: 0.03em;
+	text-decoration: underline;
+} /* Close button */
+
+div.facebook .pp_details {
+	position: relative;
+}
+div.facebook #pp_full_res .pp_inline {
+	color: #000;
+}
+
+div.facebook .pp_loaderIcon {
+	background: url(prettyPhoto/loader.gif) center center no-repeat;
+} /* Loader icon */
+div.facebook .pp_arrow_previous {
+	background: url(prettyPhoto/sprite.png) 0 -67px no-repeat;
+	height: 46px;
+	margin-top: 0;
+	width: 26px;
+} /* The previous arrow in the bottom nav */
+div.facebook .pp_arrow_previous.disabled {
+	background-position: 0 -67px;
+	cursor: default;
+}
+
+div.facebook .pp_arrow_next {
+	background: url(prettyPhoto/sprite.png) -26px -67px no-repeat;
+	height: 46px;
+	margin-top: 0;
+	width: 26px;
+} /* The next arrow in the bottom nav */
+div.facebook .pp_arrow_next.disabled {
+	background-position: -26px -67px;
+	cursor: default;
+}
+
+div.facebook .pp_nav {
+	margin-top: 0;
+}
+
+div.facebook .pp_nav p {
+	font-size: 15px;
+	padding: 0 3px 0 4px;
+}
+
+div.facebook .pp_nav .pp_play {
+	background: url(prettyPhoto/sprite.png) -1px -123px no-repeat;
+	height: 22px;
+	width: 22px;
+}
+
+div.facebook .pp_nav .pp_pause {
+	background: url(prettyPhoto/sprite.png) -32px -123px no-repeat;
+	height: 22px;
+	width: 22px;
+}
+
+div.facebook .pp_next:hover span {
+	background-position: -26px -113px;
+	cursor: pointer;
+} /* Next button */
+div.facebook .pp_previous:hover span{
+	background-position: 0 -113px;
+	cursor: pointer;
+} /* Previous button */
+
+/* ------------------------------------------------------------------------
+	DO NOT CHANGE
+------------------------------------------------------------------------- */
+div.pp_pic_holder a:focus {
+	outline: none;
+}
+
+div.pp_overlay {
+	background: #000;
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9500;
+}
+
+div.pp_pic_holder {
+	display: none;
+	position: absolute;
+	width: 150px;
+	z-index: 10000;
+}
+
+.pp_top {
+	height: 12px;
+	position: relative;
+}
+
+* html .pp_top {
+	padding: 0 50px;
+}
+
+.pp_top .pp_left {
+	height: 12px;
+	left: 0;
+	position: absolute;
+	width: 50px;
+}
+
+.pp_top .pp_middle {
+	height: 12px;
+	left: 50px;
+	position: absolute;
+	right: 50px;
+}
+
+* html .pp_top .pp_middle {
+	left: 0;
+	position: static;
+}
+
+.pp_top .pp_right {
+	height: 12px;
+	left: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+}
+
+.pp_content {
+	height: 40px;
+	min-width: 40px;
+	padding:5px;
+}
+
+* html .pp_content {
+	width: 40px;
+}
+
+.pp_fade {
+	display: none;
+}
+
+.pp_content_container {
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+
+.pp_content_container .pp_left {
+	padding-left: 50px;
+}
+
+.pp_content_container .pp_right {
+	padding-right: 50px;
+}
+
+.pp_content_container .pp_details {
+	float: left;
+	margin: 10px 0 2px 0;
+}
+
+.pp_description {
+	display: none;
+	margin: 0;
+}
+
+.pp_social {
+	float: left;
+	margin: 0;
+}
+
+.pp_social .facebook {
+	float: left;
+	margin-left: 5px;
+	width: 55px;
+	overflow: hidden;
+}
+
+.pp_social .twitter {
+	float: left;
+}
+
+.pp_nav {
+	clear: right;
+	float: left;
+	margin: 3px 10px 0 0;
+}
+
+.pp_nav p {
+	float: left;
+	margin: 2px 4px;
+	white-space: nowrap;
+}
+
+.pp_nav .pp_play,.pp_nav .pp_pause {
+	float: left;
+	margin-right: 4px;
+	text-indent: -10000px;
+}
+
+a.pp_arrow_previous,a.pp_arrow_next {
+	display: block;
+	float: left;
+	height: 15px;
+	margin-top: 3px;
+	overflow: hidden;
+	text-indent: -10000px;
+	width: 14px;
+}
+
+.pp_hoverContainer {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+	z-index: 2000;
+}
+
+.pp_gallery {
+	display: none;
+	left: 50%;
+	margin-top: -50px;
+	position: absolute;
+	z-index: 10000;
+}
+
+.pp_gallery div {
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.pp_gallery ul {
+	float: left;
+	height: 35px;
+	margin: 0 0 0 5px;
+	padding: 0;
+	position: relative;
+	white-space: nowrap;
+}
+
+.pp_gallery ul a {
+	border: 1px #000 solid;
+	border: 1px rgba(0, 0, 0, 0.5) solid;
+	display: block;
+	float: left;
+	height: 33px;
+	overflow: hidden;
+}
+
+.pp_gallery ul a:hover,.pp_gallery li.selected a {
+	border-color: #fff;
+}
+
+.pp_gallery ul a img {
+	border: 0;
+}
+
+.pp_gallery li {
+	display: block;
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+.pp_gallery li.default a {
+	background: url(prettyPhoto/default_thumbnail.gif) 0 0 no-repeat;
+	display: block;
+	height: 33px;
+	width: 50px;
+}
+
+.pp_gallery li.default a img {
+	display: none;
+}
+
+.pp_gallery .pp_arrow_previous,.pp_gallery .pp_arrow_next {
+	margin-top: 7px !important;
+}
+
+a.pp_next {
+	position:relative;
+	display: block;
+	float: right;
+	height: 100%;
+	width: 49%;
+}
+
+a.pp_next span{
+	background: url(prettyPhoto/sprite.png) -26px -67px no-repeat;
+	display:block;
+	position:absolute;
+	right:-45px;
+	top:49%;
+	width:26px;
+	height:46px;
+}
+a.pp_previous {
+	position:relative;
+	display: block;
+	float: left;
+	height: 100%;
+	text-indent: -10000px;
+	width: 49%;
+}
+a.pp_previous span{
+	background: url(prettyPhoto/sprite.png) 0px -67px no-repeat;
+	display:block;
+	position:absolute;
+	left:-45px;
+	top:49%;
+	width:26px;
+	height:46px;
+}
+
+a.pp_expand,a.pp_contract {
+	cursor: pointer;
+	display: none;
+	height: 20px;
+	position: absolute;
+	right: 30px;
+	text-indent: -10000px;
+	top: 10px;
+	width: 20px;
+	z-index: 20000;
+}
+
+a.pp_close {
+	position: absolute;
+	right: 11px;
+	top: -27px;
+	display: block;
+	line-height: 14px;
+}
+
+* html .pp_bottom {
+	padding: 0 50px;
+}
+
+.pp_bottom .pp_left {
+	height: 12px;
+	left: 0;
+	position: absolute;
+	width: 50px;
+}
+
+.pp_bottom .pp_middle {
+	height: 12px;
+	left: 50px;
+	position: absolute;
+	right: 50px;
+}
+
+* html .pp_bottom .pp_middle {
+	left: 0;
+	position: static;
+}
+
+.pp_bottom .pp_right {
+	height: 12px;
+	left: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+}
+
+.pp_loaderIcon {
+	display: block;
+	height: 24px;
+	left: 50%;
+	margin: -12px 0 0 -12px;
+	position: absolute;
+	top: 50%;
+	width: 24px;
+}
+
+#pp_full_res {
+	line-height: 1 !important;
+}
+
+#pp_full_res .pp_inline {
+	text-align: left;
+}
+
+#pp_full_res .pp_inline p {
+	margin: 0 0 15px 0;
+}
+
+div.ppt {
+	color: #fff;
+	display: none;
+	font-size: 17px;
+	margin: 0 0 5px 15px;
+	z-index: 9999;
+}
